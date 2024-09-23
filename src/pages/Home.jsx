@@ -69,66 +69,6 @@ const Home = () => {
         </div>
       </section>
        */}
-      {/* Featured Services Section */}
-      <section className="py-16 bg-white p-8 rounded-lg shadow-xl transform transition-transform duration-300">
-        <h2 className="text-4xl font-semibold text-center mb-8">
-          Our Features
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* <div className="bg-blue-100 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105"> */}
-          <div className="bg-gradient-to-br from-blue-200 to-blue-400 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
-            <h3 className="text-xl font-bold mb-4">
-              🔔 Automated Trade Notifications
-            </h3>
-
-            <p className="text-gray-600">
-              Seamlessly navigate your trades with our automated notifications,
-              guiding you through every step from entry to exit.
-            </p>
-          </div>
-          {/* <div className="bg-blue-100 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105"> */}
-          <div className="bg-gradient-to-br from-purple-200 to-purple-400 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
-            <h3 className="text-xl font-bold mb-4">📈 Daily Market Insights</h3>
-            <p className="text-gray-600">
-              Stay ahead of the curve with our unbiased market updates. Dive
-              into real trends through our in-depth analysis and leverage our
-              'Trendo Meter' for a comprehensive market perspective.
-            </p>
-          </div>
-          {/* <div className="bg-blue-100 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105"> */}
-          <div className="bg-gradient-to-br from-green-200 to-green-400 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
-            <h3 className="text-xl font-bold mb-4">💼 Derivatives Expertise</h3>
-            <p className="text-gray-600">
-              Unlock the power of derivatives analysis with simplified Open
-              Interest (OI) and Put-Call Ratio (PCR) data analytics, enhancing
-              your understanding of market dynamics.
-            </p>
-          </div>
-          {/* <div className="bg-blue-100 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105"> */}
-          <div className="bg-gradient-to-br from-orange-200 to-orange-400 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
-            <h3 className="text-xl font-bold mb-4">
-              📊 Live Strategy Performance
-            </h3>
-
-            <p className="text-gray-600">
-              Gain exclusive access to our Live Performance Reports, providing a
-              detailed overview of how our strategies are performing in
-              real-time.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Subscription Plans Section */}
-      <section
-        id="subscription"
-        className="py-16 bg-blue-50 p-8 rounded-lg shadow-xl"
-      >
-        <h2 className="text-4xl font-semibold text-center mb-8">
-          Subcription Plan
-        </h2>
-        <SubscriptionPlan />
-      </section>
 
       {/* Actionable Research Calls Section */}
       <section className="py-16 bg-white p-8 rounded-lg shadow-xl mt-8">
@@ -238,72 +178,134 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      <section className="py-16 bg-white p-8 rounded-lg shadow-xl">
+      {/* Featured Services Section */}
+      <section className="py-16 bg-white p-8 rounded-lg shadow-xl transform transition-transform duration-300">
         <h2 className="text-4xl font-semibold text-center mb-8">
-          What Our Users Say
+          Our Features
         </h2>
-        <div className="space-y-6">
-          <div className="bg-blue-50 p-6 rounded-lg shadow-md flex items-center transition-transform transform hover:scale-105">
-            <img
-              src="https://via.placeholder.com/64"
-              alt="User"
-              className="w-16 h-16 rounded-full mr-4"
-            />
-            <div>
-              <p className="text-gray-700 mb-2">"Amazing calls in Nifty"</p>
-              <p className="text-gray-900 font-semibold text-left">
-                - Tushar Arahant.
-              </p>
-            </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {/* <div className="bg-blue-100 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105"> */}
+          <div className="bg-gradient-to-br from-blue-200 to-blue-400 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+            <h3 className="text-xl font-bold mb-4">
+              🔔 Automated Trade Notifications
+            </h3>
+
+            <p className="text-gray-600">
+              Seamlessly navigate your trades with our automated notifications,
+              guiding you through every step from entry to exit.
+            </p>
           </div>
-          <div className="bg-blue-50 p-6 rounded-lg shadow-md flex items-center transition-transform transform hover:scale-105">
-            <img
-              src="https://via.placeholder.com/64"
-              alt="User"
-              className="w-16 h-16 rounded-full mr-4"
-            />
-            <div>
-              <p className="text-gray-700 mb-2">
-                "Market Impulse is very helpful."
-              </p>
-              <p className="text-gray-900 font-semibold text-left">
-                - Prashant Vaghela.
-              </p>
-            </div>
+          {/* <div className="bg-blue-100 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105"> */}
+          <div className="bg-gradient-to-br from-purple-200 to-purple-400 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+            <h3 className="text-xl font-bold mb-4">📈 Daily Market Insights</h3>
+            <p className="text-gray-600">
+              Stay ahead of the curve with our unbiased market updates. Dive
+              into real trends through our in-depth analysis and leverage our
+              'Trendo Meter' for a comprehensive market perspective.
+            </p>
           </div>
-          <div className="bg-blue-50 p-6 rounded-lg shadow-md flex items-center transition-transform transform hover:scale-105">
-            <img
-              src="https://via.placeholder.com/64"
-              alt="User"
-              className="w-16 h-16 rounded-full mr-4"
-            />
-            <div>
-              <p className="text-gray-700 mb-2">
-                "Good trades, & they don't give unnecessary trades."
-              </p>
-              <p className="text-gray-900 font-semibold text-left">
-                - Hardik Roy.
-              </p>
-            </div>
+          {/* <div className="bg-blue-100 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105"> */}
+          <div className="bg-gradient-to-br from-green-200 to-green-400 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+            <h3 className="text-xl font-bold mb-4">💼 Derivatives Expertise</h3>
+            <p className="text-gray-600">
+              Unlock the power of derivatives analysis with simplified Open
+              Interest (OI) and Put-Call Ratio (PCR) data analytics, enhancing
+              your understanding of market dynamics.
+            </p>
+          </div>
+          {/* <div className="bg-blue-100 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105"> */}
+          <div className="bg-gradient-to-br from-orange-200 to-orange-400 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+            <h3 className="text-xl font-bold mb-4">
+              📊 Live Strategy Performance
+            </h3>
+
+            <p className="text-gray-600">
+              Gain exclusive access to our Live Performance Reports, providing a
+              detailed overview of how our strategies are performing in
+              real-time.
+            </p>
           </div>
         </div>
       </section>
 
+      {/* Subscription Plans Section */}
+      <section
+        id="subscription"
+        className="py-16 bg-blue-50 p-8 rounded-lg shadow-xl"
+      >
+        <h2 className="text-4xl font-semibold text-center mb-8">
+          Subcription Plan
+        </h2>
+        <SubscriptionPlan />
+      </section>
+
+      {/* Testimonials Section */}
+      <section className="py-16 bg-gray-100 rounded-lg shadow-xl">
+        <h2 className="text-4xl font-semibold text-center mb-12 text-gray-800">
+          What Our Clients Say
+        </h2>
+        <div className="flex justify-center space-x-8">
+          {[
+            {
+              text: "Amazing calls in Nifty.",
+              author: "Tushar Arahant",
+            },
+            {
+              text: "Market Impulse is very helpful.",
+              author: "Prashant Vaghela",
+            },
+            {
+              text: "Good trades, & they don't give unnecessary trades.",
+              author: "Hardik Roy",
+            },
+          ].map((testimonial, index) => (
+            <div
+              key={index}
+              className="relative group h-[16em] w-[15em] bg-white rounded-lg overflow-hidden p-4 shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl"
+            >
+              <div className="circle absolute h-[4em] w-[4em] -top-[2em] -right-[2em] rounded-full bg-[#FF5800] group-hover:scale-[800%] duration-500 z-[-1]"></div>
+              <div className="flex flex-col items-center mb-4">
+                {/* Stars */}
+                <div className="flex gap-1 text-yellow-400 mb-2">
+                  {[...Array(5)].map((_, i) => (
+                    <svg
+                      key={i}
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      className="w-5 h-5"
+                    >
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                    </svg>
+                  ))}
+                </div>
+              </div>
+              {/* Information */}
+              <p className="text-gray-600 leading-relaxed mb-2 text-center italic group-hover:text-white duration-500">
+                "{testimonial.text}"
+              </p>
+              <div className="author text-sm text-gray-500 text-center font-medium group-hover:text-white duration-500">
+                — {testimonial.author}
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* Call to Action Section */}
-      <section className="py-16 bg-blue-600 text-white text-center rounded-lg shadow-xl">
+      <section className="py-16 bg-blue-600 text-white text-center  shadow-xl">
         <h2 className="text-4xl font-bold mb-4 animate__animated animate__fadeIn">
-          Start Your Trading Journey with Tradzo
+          Start Your Trading Journey Today!
         </h2>
         <p className="text-lg mb-6 animate__animated animate__fadeIn animate__delay-1s">
-          Sign up today and get access to exclusive trading strategies, tips,
+          Sign up now and unlock access to exclusive trading strategies, tips,
           and tools.
         </p>
         <button
           onClick={handleGetStarted}
           className="bg-white text-blue-600 font-semibold py-2 px-4 rounded hover:bg-gray-300 transition duration-300"
         >
-          Get Started Now
+          Get Started
         </button>
       </section>
     </div>

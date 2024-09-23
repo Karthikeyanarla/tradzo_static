@@ -6,7 +6,8 @@ const plans = [
     price: "₹0.00",
     description: "Price is inclusive of 18% GST",
     buttonText: "Activated",
-    active: true,
+    active: false,
+    // active: true,
   },
   {
     name: "Monthly",
