@@ -2,7 +2,7 @@ import React from "react";
 
 const TermsAndConditions = () => {
   return (
-    <div className="w-full mx-auto px-4 py-8 bg-white text-left text-sm">
+    <div className="w-full mx-auto px-8 py-8 bg-white text-left text-sm">
       <h1 className="text-3xl font-semibold mb-6">Terms & Conditions</h1>
       <p className="mb-4">
         By continuing to use this website and/or application (the Platform), you
@@ -17,11 +17,7 @@ const TermsAndConditions = () => {
         <li>
           By subscribing to our services, you understand that returns in the
           stock market are subject to market risk, and we do not guarantee any
-          fixed return as per SEBI guidelines & are not liable for your loss. We
-          provide entry and exit levels to trade or invest in equities or their
-          derivatives. Our system notifies you when such levels are triggered.
-          However, in the event of no update from our side, consider mentioned
-          levels in the trade as final.
+          fixed return as per SEBI guidelines & are not liable for your loss.
         </li>
 
         <li>
@@ -78,8 +74,9 @@ const TermsAndConditions = () => {
           the Associate Companies or third parties on the Platform.
         </li>
         <li>
-          <strong>User</strong> or <strong>you</strong> shall mean any person
-          accessing or using the Platform.
+          <strong>User</strong> or <strong>you</strong> shall mean any person,
+          who accesses, uses, installs, or views the Platform (even if you do
+          not avail the Services provided).
         </li>
         <li>
           <strong>User Data</strong> shall mean any personal and/or sensitive
@@ -93,7 +90,7 @@ const TermsAndConditions = () => {
       </ul>
 
       <h2 className="text-2xl font-semibold mb-4 pt-4">2. Services</h2>
-      <ol className="list-decimal list-inside mb-4 space-y-4">
+      <ol className="list-decimal list-inside ml-6 mb-4 space-y-4 ">
         <li>
           The Company operates the Platform to enable the User to avail the
           Equities Research & Investment Advisory Services. The User
@@ -109,7 +106,7 @@ const TermsAndConditions = () => {
         <li>
           While you access the services, the Company will act on your express
           instructions, and any transactions carried out on your behalf shall be
-          subject to your sole consent, discretion and responsibility;
+          subject to your sole consent, discretion and responsibility.
         </li>
 
         <li>
@@ -117,7 +114,7 @@ const TermsAndConditions = () => {
           with corporate entities including but not limited to brokerage firms,
           investment advisors, research analysts that are registered with the
           Securities and Exchange Board of India (SEBI) and NBFCs/Banks that are
-          registered with the Reserve Bank of India (RBI);
+          registered with the Reserve Bank of India (RBI).
         </li>
 
         <li>
@@ -136,7 +133,11 @@ const TermsAndConditions = () => {
 
         <li>
           The Company is required to collect User Data, in accordance with the
-          Company’s Privacy Policy available for viewing here.
+          Company’s Privacy Policy available for viewing{" "}
+          <a href="/disclaimer" className="text-blue-500">
+            here
+          </a>
+          .
         </li>
 
         <li>
@@ -144,18 +145,29 @@ const TermsAndConditions = () => {
           the company and Associate companies that the information shared by you
           on the platform or received by the Company and Associate companies
           from various intermediaries and third parties may be shared within the
-          Company, Associate Companies and other third parties
+          Company, Associate Companies and other third parties.
+        </li>
+
+        <li>
+          You hereby acknowledge, agree and grant your express authorisation to
+          the company and associate companies to receive your investment,
+          financial, personal and other data from different third parties and
+          intermediaries to provide services on the platform.
         </li>
 
         <li>
           You declare that you have read, understood and agree to the
-          disclosures made here
+          disclosures made{" "}
+          <a href="/disclaimer" className="text-blue-500">
+            here
+          </a>
+          .
         </li>
 
         <li>
           You agree that the records maintained by the Company in respect of the
           transactions effected using our Services shall be sufficient proof of
-          such transactions;
+          such transactions.
         </li>
 
         <li>
@@ -164,7 +176,7 @@ const TermsAndConditions = () => {
           otherwise any claims made in respect of the use or misuse of the
           Services by you, and the Company/Associate company shall be entitled
           to cancel or refuse to offer the Services to you without any notice or
-          obligation to provide reasons;
+          obligation to provide reasons.
         </li>
 
         <li>
@@ -173,13 +185,13 @@ const TermsAndConditions = () => {
           including the capability of your electronic device, internet
           connection, and such other specifications or features that may be
           relevant for or ancillary to accessing the Platform and availing the
-          Services;
+          Services.
         </li>
 
         <li>
           By accessing the Services through the Platform, you represent that (a)
           you are competent to contract with the Company and (b) you consent to
-          these Terms;
+          these Terms.
         </li>
 
         <li>
@@ -188,7 +200,7 @@ const TermsAndConditions = () => {
           find necessary to make, and you acknowledge that the Company or the
           Associate Companies shall not be liable in any manner whatsoever
           towards any damages, losses or other claims which may be threatened or
-          incurred as a result;
+          incurred as a result.
         </li>
 
         <li>
@@ -207,12 +219,12 @@ const TermsAndConditions = () => {
       </ol>
 
       <p className="mb-4">
-        By continuing to use this website and/or application (the Platform), you
-        agree to be bound by the terms and conditions (Terms) set out below.
-        Please read the Terms carefully. If you do not agree to the Terms in
-        their entirety, please do not use or access the Platform. The Company
-        through this Platform provides various technology services to its users
-        and Associate Companies.
+        For any grievances related to the Services provided on the platform,
+        kindly reach out to the grievance officer, Mr Harsh Patel using{" "}
+        <a href="mailto:care@tradzo.in" className="text-blue-500">
+          care@tradzo.in
+        </a>
+        .
       </p>
 
       <h2 className="text-2xl font-semibold mb-4 pt-4">
@@ -237,31 +249,27 @@ const TermsAndConditions = () => {
         action it deems necessary at its sole discretion:
       </p>
 
-      <ol className="list-decimal list-inside mb-4 space-y-4">
+      <ol className="list-decimal list-inside mb-4 space-y-3 ml-6">
         <li>
           You agree not to attempt to reverse-engineer, disseminate, copy,
           exploit, or represent yourself as an agent or reseller of the Platform
           and the Services, or any part thereof;
         </li>
-
         <li>
           You agree not to misrepresent yourself as or impersonate any other
           person, or otherwise cause harm to any person;
         </li>
-
         <li>
           You agree not to upload or transmit any vulgar, obscene, abusive,
           defamatory, libellous, invasive, or unlawful content, including
           content which is objectionable or results in a breach of privacy of
           any other person;
         </li>
-
         <li>
           You agree not to use or abuse the Platform for or in relation to any
           illegal or unlawful purposes including fraud, embezzlement, money
           laundering, etc.;
         </li>
-
         <li>
           You agree not to carry out or facilitate any actions which result in a
           detrimental effect on the Platform or the Services, including DDoS
@@ -271,16 +279,22 @@ const TermsAndConditions = () => {
         </li>
 
         <li>
+          You agree that you are granted a non-exclusive license for the purpose
+          of enabling you to use and access our Platform and Services. Except
+          with our prior written consent, you may not assign (or grant a
+          sub-license of) your rights to use the Service or otherwise transfer
+          any part of your rights to use the Service.
+        </li>
+
+        <li>
           You agree not to violate any applicable laws, whether or not intended
           by you;
         </li>
-
         <li>
           You represent and warrant that you possess the legal right and ability
           to enter into these Terms and to use the Platform and the Services in
           accordance with these Terms.
         </li>
-
         <li>
           You agree not to upload or transmit any vulgar, obscene, abusive,
           defamatory, libellous, pornographic, paedophilic, invasive of
@@ -292,7 +306,6 @@ const TermsAndConditions = () => {
           gambling, or otherwise inconsistent with or contrary to the laws in
           force in India;
         </li>
-
         <li>
           You agree not to carry out or facilitate any actions which result in a
           detrimental effect on the Website or the Services or any related
@@ -300,18 +313,15 @@ const TermsAndConditions = () => {
           otherwise any disruption to the servers, hardware, or network of any
           other person or the Website or the Services;
         </li>
-
         <li>
           You agree that you shall have no right to the intellectual property
           and any proprietary information made available or accessible through
           the Website or the Services;
         </li>
-
         <li>
           You agree not to violate any applicable laws, whether or not intended
           by you;
         </li>
-
         <li>
           You represent and warrant that you possess the legal right and ability
           to enter into these terms and to use the Website/Platform and the
@@ -323,7 +333,7 @@ const TermsAndConditions = () => {
 
       <p className="mb-4">The user undertakes to:</p>
 
-      <ol className="list-decimal list-inside mb-4 space-y-4">
+      <ol className="list-decimal list-inside ml-6 mb-4 space-y-3">
         <li>
           be responsible for maintaining the confidentiality of your account and
           password and for restricting access to your computer to prevent
@@ -411,7 +421,7 @@ const TermsAndConditions = () => {
         6. Exclusion of Warranties
       </h2>
 
-      <ol className="list-decimal list-inside mb-4 space-y-4">
+      <ol className="list-decimal list-inside mb-4 ml-6 space-y-3">
         <li>
           The Company does not provide any warranty, express or implied, for the
           accuracy or completeness of the Platform or the Services, and
@@ -439,21 +449,21 @@ const TermsAndConditions = () => {
 
         <li>
           We further do not represent or warrant to you that:
-          <ol className="list-lower-alpha list-inside mb-4 space-y-4">
+          <ul className="list-disc list-inside mb-4 ml-6">
             <li>
-              Your use of our Platform and Services will meet your requirements;
+              Your use of our Platform and Services will meet your requirements.
             </li>
 
             <li>
               Your use of the Platform and Services will be uninterrupted,
               timely, secure or free from error, including specifically from
-              server downtime;
+              server downtime.
             </li>
             <li>
               Any information obtained by you as a result of your use of the
               Platform and Services will be accurate or reliable.
             </li>
-          </ol>
+          </ul>
         </li>
 
         <li>
@@ -493,7 +503,7 @@ const TermsAndConditions = () => {
           The Company, the Associate Companies and their respective affiliates,
           subsidiaries, directors, employees, promoters and agents shall not be
           liable for:
-          <ol className="list-alpha list-inside mb-4 space-y-4">
+          <ul className="list-disc list-inside my-4 ml-6 space-y-2">
             <li>
               any direct, indirect, incidental, special, consequential or
               exemplary loss or damage suffered by the User, however, caused and
@@ -521,7 +531,7 @@ const TermsAndConditions = () => {
               result of any relationship or transaction between you and any
               advertiser or sponsor whose advertisement appears on the Services.
             </li>
-          </ol>
+          </ul>
         </li>
 
         <li>

@@ -29,9 +29,9 @@ const SubscriptionPlan = () => {
   return (
     <div className="max-w-6xl mx-auto">
       <div className="text-center mb-8">
-        <p className="mt-2 text-lg">
+        {/* <p className="mt-2 text-lg">
           Unbiased Actionable Research driven by Logic & Probabilities
-        </p>
+        </p> */}
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
         {plans.map((plan, index) => (
