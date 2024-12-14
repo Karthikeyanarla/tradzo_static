@@ -1,18 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../../assets/logos-01.svg";
+// import logo from "../../../assets/logos-01.svg";
+import logo from "../../../assets/logowhite.png";
 
 function Footer() {
   return (
-    <footer className="bg-gray-900 text-white py-8">
+    <footer className="bg-gray-900 text-white py-10">
       <div className="container mx-auto px-6 lg:px-8">
         {/* Logo and Intro */}
         <div className="flex flex-col md:flex-row md:justify-between items-center text-center mb-8">
           <div className="mb-6 md:mb-0">
             <Link to="/" className="flex justify-center mx-auto">
-              <img src={logo} className="h-40 w-auto" alt="Logo" />
+              <img src={logo} className="h-20 w-auto" alt="Logo" />
             </Link>
-            <p className="mt-4 text-sm max-w-md">
+            <p className="mt-6 text-sm max-w-md">
               Tradzo Technologies creates platforms & investment products to
               invest in Indian Equities with more Transparency & Professional
               Approach. Our strategies are curated to provide actionable

@@ -297,7 +297,7 @@ const Home = () => {
               <p className="text-gray-600 leading-relaxed mb-2 text-center italic group-hover:text-white duration-500">
                 "{testimonial.text}"
               </p>
-              <div className="author text-sm text-gray-500 text-center font-medium group-hover:text-white duration-500">
+              <div className="author text-sm text-gray-800 text-center font-medium group-hover:text-white duration-500">
                 — {testimonial.author}
               </div>
             </div>
